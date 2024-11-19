@@ -37,10 +37,30 @@ body{
     overflow-x: scroll;
     border: solid white;
     width: 400px;
+    margin-bottom: 20px;
 }
 
 /* hides the scroll-bar */
 .practice::-webkit-scrollbar{
     display: none;
     /* visibility: hidden; */
+}
+
+#practicetext2{
+    border: solid white;
+    width: 400px;
+    overflow-x: scroll;
+    text-overflow: ellipsis;
+}
+
+#practicetext2::-webkit-scrollbar{
+    display: none;
+    /* visibility: hidden; */
+}
+
+#showuptext{
+    display: none;
+}
+#practicetext2:hover ~ #showuptext{
+    display: block;
 }
