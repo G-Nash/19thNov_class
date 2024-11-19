@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#page{
+    border: solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1500px;
+    width: 750px;
+    box-shadow: 0 0 50px white;
+    padding: 20px;
+}
+
+.heading{
+    text-align: center;
+    text-decoration: underline;
+}
+
