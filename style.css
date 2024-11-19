@@ -9,7 +9,7 @@ body{
     margin-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
-    height: 1500px;
+    /* height: 1500px; */
     width: 750px;
     box-shadow: 0 0 50px white;
     padding: 20px;
@@ -30,4 +30,15 @@ body{
 
 .content{
     text-align: justify;
+}
+
+.practice{
+    overflow-x: scroll;
+    border: solid white;
+    width: 400px;
+}
+
+/* hides the scroll-bar */
+.practice::-webkit-scrollbar{
+    display: none;
 }
