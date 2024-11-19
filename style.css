@@ -16,6 +16,7 @@ body{
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 10px;
+    text-align: justify;
 }
 
 .heading{
@@ -25,4 +26,8 @@ body{
 
 .sub-heading{
     text-decoration: underline;
+}
+
+.content{
+    text-align: justify;
 }
