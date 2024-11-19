@@ -13,6 +13,9 @@ body{
     width: 750px;
     box-shadow: 0 0 50px white;
     padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
 }
 
 .heading{
